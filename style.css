@@ -1,0 +1,47 @@
+.bg-yellow1 {
+  background-color: rgb(233, 233, 180);
+}
+.bg-yellow2 {
+  background-color: rgb(236, 236, 142);
+}
+.bg-yellow3 {
+  background-color: yellow;
+}
+.ex1 .row.no-gutters {
+  border-radius: 11px;
+}
+.ex1 .row.no-gutters .first {
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: 2px solid black;
+}
+.ex1 .col-5 > .third .bg-yellow1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 16px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+.ex1 .col-5 > .third .bg-yellow2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+}
+.ex1 .col-5 > .third .bg-yellow3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 16px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+.ex2 .row span {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.light-bg {
+  background-color: rgb(196, 196, 196);
+}
